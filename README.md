@@ -1,2 +1,5 @@
 # Barbearia-Alura
-Projeto da barbearia Alura usado para estudo de Front-End. usando HTML e CSS.
+
+## Autor: Matheus Melo de Araujo, 20, 2A
+
+Repositório da barbearia Alura usado para estudos de Programação Front-End. Em HTML e CSS, no curso de desenvolvimento de sistemas, Gabriel de Lara.
