@@ -9,7 +9,7 @@ header {
 }
 
 .banner {
-    width:100%;
+    width: 100%;
 }
 
 .titulo-principal {
@@ -35,7 +35,7 @@ header {
 }
 
 .utensilios {
-    width: 120px;
+    width: calc(40% - 26px);
     float: left;
     margin: 0 20px 20px 0;
 }
@@ -119,9 +119,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-main {
-
-}
+main {}
 
 .beneficios {
     padding: 3em 0;
@@ -224,7 +222,8 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
@@ -238,6 +237,7 @@ td, th {
     margin: 0 0 2em;
     text-align: center;
 }
+
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
@@ -247,3 +247,72 @@ td, th {
     width: 560px;
     margin: 2em auto;
 }
+
+
+/* SELETORES AVANÇADOS PARA SEREM USADOS
+
+
+
+
+
+main p {
+
+
+    background: red;
+
+
+}
+
+
+
+
+
+main > p {
+
+
+    background: red; 
+
+
+}
+
+
+
+
+
+img + p { 
+
+
+    background: blue;
+
+
+}
+
+
+
+
+
+img ~ p {
+
+
+    background: yellow
+
+
+} 
+
+
+
+
+
+.principal p:not(#missao) {
+
+
+    background: orange;
+
+
+}Add commentMore actions
+
+
+
+
+
+*/
