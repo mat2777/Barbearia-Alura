@@ -3,7 +3,6 @@ body {
 }
 
 header {
-
     background: #BBBBBB;
     padding: 20px 0;
 }
@@ -24,6 +23,10 @@ header {
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
 }
 
 .principal strong {
@@ -100,13 +103,13 @@ nav a:hover {
     border-color: #088C19;
 }
 
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produto-descricao {
@@ -119,7 +122,9 @@ nav a:hover {
     margin-top: 10px;
 }
 
-main {}
+main {
+    
+}
 
 .beneficios {
     padding: 3em 0;
@@ -146,11 +151,18 @@ main {}
 }
 
 .itens:before {
-    content: "★";
+    content: "✔️";
 }
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 form {
@@ -222,15 +234,14 @@ thead {
     font-weight: bold;
 }
 
-td,
-th {
+td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888);
+    background-color: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
@@ -251,68 +262,24 @@ th {
 
 /* SELETORES AVANÇADOS PARA SEREM USADOS
 
-
-
-
-
 main p {
-
-
     background: red;
-
-
 }
-
-
-
-
 
 main > p {
-
-
     background: red; 
-
-
 }
-
-
-
-
 
 img + p { 
-
-
     background: blue;
-
-
 }
 
-
-
-
-
 img ~ p {
-
-
     background: yellow
-
-
 } 
 
-
-
-
-
 .principal p:not(#missao) {
-
-
     background: orange;
-
-
-}Add commentMore actions
-
-
-
-
+}
 
 */
